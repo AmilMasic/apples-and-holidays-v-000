@@ -88,7 +88,7 @@ holiday_hash.each do |holiday_season, data|
     new_holiday_string = key.to_s
     new_holiday_string.split
     # capitalized_string
-    binding.pry
+    # binding.pry
     new_holiday_string.each do |word|
       capitalized_string << word.capitalize!
     end
